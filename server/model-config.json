@@ -20,7 +20,7 @@
   },
   "UserIdentity": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "ACL": {
     "dataSource": "db",
