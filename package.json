@@ -1,0 +1,22 @@
+{
+  "name": "loopback-example-passport",
+  "version": "0.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "1.x",
+    "cookie-parser": "1.x",
+    "errorhandler": "1.x",
+    "express-session": "1.x",
+    "loopback": "2.x",
+    "loopback-boot": "2.x",
+    "loopback-component-passport": "git://github.com/pandaiolo/loopback-component-passport.git#migrate-to-2.x",
+    "loopback-datasource-juggler": "2.x",
+    "serve-favicon": "2.x"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "1.x"
+  }
+}

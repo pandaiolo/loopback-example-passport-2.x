@@ -1,0 +1,14 @@
+{
+  "name": "AppUser",
+  "plural": "AppUsers",
+  "base": "User",
+  "properties": {
+    "testProperty": {
+      "type": "String"
+    }
+  },
+  "relations": {},
+  "validations": [],
+  "acls": [],
+  "methods": []
+}
